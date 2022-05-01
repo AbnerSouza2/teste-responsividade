@@ -1,0 +1,93 @@
+/*Configurações*/
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    border: px solid rgb(18, 55, 158);
+  
+    
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    margin-top: 60px;
+    color: white;
+    min-width: 320px;
+   
+}
+ 
+div>div{
+    display:inline-block
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color:rgb(3, 3, 1)
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(1, 110, 124);
+}
+/*------------- Fim configurações------------- */
+
+/*Paragrafos e linhas */
+p, hr, h1{
+    width: 40%;
+}
+
+hr{
+    background-color: rgb(32, 32, 49);
+    border-color: rgb(201, 188, 125);
+}
+/*------------- Fim paragrafos e linhas ------------- */
+
+/*Menu home*/
+
+.name{
+    padding-bottom: 100px;
+    font-size: 15px;  
+    color: rgb(1, 110, 124);
+    
+}
+
+.port{
+    padding-bottom: 40px;
+}
+
+#ano{
+    color: rgb(1, 110, 124);
+    font-size: 25px;
+    padding-bottom: 30px;  
+}
+/*------------- Fim menu home------------- */
+
+/* Botões */
+button, input{
+   
+    border-radius: 12px;
+    padding-bottom: 100px;
+    cursor: pointer;
+    padding: 4px;
+    width: 60px;
+    color: white;
+    background-color: rgb(1, 110, 124);
+    border-color: rgb(201, 188, 125);
+}
+
+
+.botao1{
+    width: 100%;
+    
+}
+
+.botao2{
+    width: 100%;
+}
+
+.botao4{
+    
+}
+
+/*------------- Fim botões------------- */
